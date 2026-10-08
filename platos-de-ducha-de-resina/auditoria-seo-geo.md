@@ -94,7 +94,7 @@
 | Elemento | Actual | Propuesto |
 |---|---|---|
 | **Title** (63 car.) | Platos de ducha. Platos de ducha de resina. Platos de ducha antideslizantes. Cambiar bañera por ducha. | **Platos de Ducha de Resina Extraplanos y a Medida \| Envío Gratis** |
-| **Meta description** (151 car.) | Platos de ducha de resina.  Platos de ducha baratos. Platos de ducha de obra… | **Platos de ducha de resina GME y Doccia: extraplanos, antideslizantes C3 y corte a medida gratis. Más de 50 medidas y 8 colores. Envío gratis a península.** |
+| **Meta description** (152 car.) | Platos de ducha de resina.  Platos de ducha baratos. Platos de ducha de obra… | **Compra platos de ducha de resina GME y Doccia: extraplanos, antideslizantes C3 y a medida con corte gratis. Más de 50 medidas y 8 colores. Envío gratis.** |
 | **H1** | Platos de ducha de resina | Se mantiene |
 | **URL** | /569-platos-de-ducha-de-resina | Se mantiene: contiene la keyword y tiene histórico |
 | **Meta keywords** | Lista de 11 términos | Eliminar |
@@ -115,7 +115,7 @@
      - Quitar «de resina» de su title y de su meta description.
    - Reescribir la «Guía técnica» de la 568 con un enfoque general (tipos, medidas, cómo cambiar la bañera por un plato de ducha) y añadir un enlace contextual a la 569 con el anchor «platos de ducha de resina». El contenido nuevo de la 569 no repite sus preguntas para evitar duplicados.
    - A medio plazo, la 568 debería mostrar subcategorías (resina, textura piedra, textura pizarra, a medida…) y no los mismos 21 productos.
-2. **Publicar las dos descripciones nuevas:** `descripcion-corta.html` encima del listado y `descripcion-larga.html` debajo. La página pasa de unas 60 a más de 1.200 palabras propias.
+2. **Publicar las dos descripciones nuevas:** `descripcion-corta.html` encima del listado y `descripcion-larga.html` debajo. La página pasa de unas 60 a unas 1.330 palabras propias.
 3. **Cambiar el title y la meta description** por los del punto 3.
 4. **Corregir la jerarquía de encabezados del tema.** Los 21 nombres de producto de las miniaturas salen como `<h2>` y diluyen la estructura. En la plantilla `product-miniature.tpl`, cambiarlos por `<h3>` o `<p class="h3">`. Así, los H2 y H3 de la descripción larga pasan a ser la estructura semántica real.
 5. **Eliminar el `<h3>` vacío** y el `<h4>` del texto actual, que desaparecen con la descripción nueva.
@@ -221,7 +221,7 @@
 ## 8. Archivos entregados
 
 - `descripcion-corta.html`: va encima del listado (unas 100 palabras, con chips de ventajas).
-- `descripcion-larga.html`: va debajo del listado (unas 1.140 palabras, 19 enlaces internos con `title`, diseño adaptable a móvil y tabla con scroll horizontal en pantallas pequeñas).
+- `descripcion-larga.html`: va debajo del listado (unas 1.240 palabras, 19 enlaces internos con `title`, diseño adaptable a móvil y tabla con scroll horizontal en pantallas pequeñas).
 - `schema-jsonld.html`: JSON-LD validado y coherente con el FAQ visible.
 
 > **Limitaciones:** los volúmenes son medias mensuales de DinoRANK para España. No se han extraído las consultas de Search Console de esta URL ni se han medido las Core Web Vitals. Los precios, plazos y garantías proceden de las fichas a 8 de octubre de 2026.
