@@ -1,0 +1,14 @@
+/* 1. Email del pie demasiado largo: provoca scroll horizontal en TODA la web */
+.elementor-icon-list-text{overflow-wrap:anywhere;word-break:break-word}
+
+@media (max-width:767px){
+  /* 2. Tablas de las descripciones de categoría: que quepan en móvil */
+  .elementor-element-e390be8 table{min-width:0!important;width:100%!important;table-layout:fixed}
+  .elementor-element-e390be8 table th,
+  .elementor-element-e390be8 table td{padding:8px 6px!important;font-size:13px!important;overflow-wrap:anywhere}
+
+  /* 3. Listado de productos a 2 columnas */
+  body#category .ce-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:12px!important;row-gap:24px!important}
+  body#category .ce-product-grid .product-title,
+  body#category .ce-product-grid .product-title a{font-size:13px!important;line-height:1.3!important}
+}

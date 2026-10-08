@@ -225,3 +225,22 @@
 - `schema-jsonld.html`: JSON-LD validado y coherente con el FAQ visible.
 
 > **Limitaciones:** los volúmenes son medias mensuales de DinoRANK para España. No se han extraído las consultas de Search Console de esta URL ni se han medido las Core Web Vitals. Los precios, plazos y garantías proceden de las fichas a 8 de octubre de 2026.
+
+---
+
+## 9. Revisión móvil (8 de octubre de 2026)
+
+Prueba con Chromium a 360, 390 y 414 px en la home, las categorías 568, 569 y 508, una ficha de producto y el carrito.
+
+| Problema | Alcance | Causa | Solución |
+|---|---|---|---|
+| Scroll horizontal: la página mide 442-530 px en un móvil de 390 px y aparece una franja blanca a la derecha | **Toda la web** | El email del pie (`info@aluminiocarpinteria.com`, widget `9f110b6`) no se parte y mide 237 px | `overflow-wrap:anywhere` en `.elementor-icon-list-text` |
+| La tabla de la descripción desborda | 568, 569 y 508 | Las tablas de 3-4 columnas con `padding: 15px` (y en la 569, `min-width: 520px`) no caben. El editor de PrestaShop **elimina** `overflow-x`, `display:flex`, `gap` y `border-radius` del HTML | CSS para tablas en móvil. HTML sin `min-width` y con menos padding |
+| Listado de productos a 1 columna: 21 tarjetas de unos 360 px de alto, unos 15.400 px de scroll | Todas las categorías | Configuración de columnas en móvil del widget de rejilla de productos de Creative Elements | 2 columnas en móvil: la página baja a unos 11.500 px |
+
+**Implementación:**
+1. Pegar `css-movil.css` en Creative Elements → Ajustes del sitio → CSS personalizado, o en `themes/classic/assets/css/custom.css`.
+2. Vaciar la caché: Parámetros avanzados → Rendimiento → Borrar caché.
+3. Alternativa al punto 3 del CSS: en el widget de rejilla de productos de la plantilla de categoría, poner «Columnas» en móvil = 2.
+
+**Resultado verificado:** con el CSS aplicado, todas las páginas probadas miden exactamente el ancho de la pantalla. Única excepción: la 508 a 360 px, que se queda en 374 px y conviene revisar.
