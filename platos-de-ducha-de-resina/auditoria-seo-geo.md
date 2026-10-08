@@ -221,7 +221,7 @@
 ## 8. Archivos entregados
 
 - `descripcion-corta.html`: va encima del listado (unas 100 palabras, con chips de ventajas).
-- `descripcion-larga.html`: va debajo del listado (unas 1.240 palabras, 19 enlaces internos con `title`, diseño adaptable a móvil y tabla con scroll horizontal en pantallas pequeñas).
+- `descripcion-larga.html`: va debajo del listado (unas 1.240 palabras, 4 enlaces internos con `title`, diseño adaptable a móvil y tabla con scroll horizontal en pantallas pequeñas).
 - `schema-jsonld.html`: JSON-LD validado y coherente con el FAQ visible.
 
 > **Limitaciones:** los volúmenes son medias mensuales de DinoRANK para España. No se han extraído las consultas de Search Console de esta URL ni se han medido las Core Web Vitals. Los precios, plazos y garantías proceden de las fichas a 8 de octubre de 2026.
