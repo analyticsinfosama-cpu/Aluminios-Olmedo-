@@ -1,6 +1,6 @@
 # aluminio-carpinteria.com - archivo de desautorización
 # Actualizado el 15/10/2026
-# Incluye: archivo de 05/03/2026 (9 dominios) + campaña spam oct-2026 detectada en DinoRANK (196 dominios) + sitelike.org (Search Console)
+# Incluye: archivo de 05/03/2026 (9 dominios; se retira toldosverdes.com por ser web legítima) + campaña spam oct-2026 detectada en DinoRANK (196 dominios) + sitelike.org (Search Console)
 # --- Archivo de marzo 2026 ---
 domain:1stcallglasscare.com
 domain:808openhouse.com
@@ -10,7 +10,6 @@ domain:farmerskitchen.info
 domain:genesis389.com
 domain:seonegativo.com
 domain:smile-24.com
-domain:toldosverdes.com
 # --- Spam octubre 2026 (anchor «Premium SEO Link Building Experts…» y PBN) ---
 domain:1seoservices.com
 domain:advanced-seo.link
