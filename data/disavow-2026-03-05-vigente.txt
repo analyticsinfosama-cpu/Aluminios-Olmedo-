@@ -1,0 +1,11 @@
+# Archivo de desautorización creado el 05 de Marzo de 2026
+# Dominio de spam identificado
+domain:genesis389.com
+domain:808openhouse.com
+domain:www.smile-24.com
+domain:farmerskitchen.info
+domain:seonegativo.com
+domain:www.apali.com
+domain:1stcallglasscare.com
+domain:toldosverdes.com
+domain:easyfeedback.com
